@@ -1,8 +1,8 @@
-Project Title                       : YouTube Data Harvesting and Warehousing using SQL, MongoDB and Streamlit
-Skills take away From This Project  : Python scripting, Data Collection,MongoDB, Streamlit, API integration, Data Management using MongoDB (Atlas) and SQL  
-Domain                              : Social Media
+**Project Title **                      : YouTube Data Harvesting and Warehousing using SQL, MongoDB and Streamlit
+**Skills take away From This Project ** : Python scripting, Data Collection,MongoDB, Streamlit, API integration, Data Management using MongoDB (Atlas) and SQL  
+**Domain **                             : Social Media
 	
-Problem Statement:
+**Problem Statement:**
 The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels. The application should have the following features:
 1. Ability to input a YouTube channel ID and retrieve all the relevant data (Channel name, subscribers, total video count, playlist ID, video ID, likes, dislikes, comments of each video) using Google API.
 2. Option to store the data in a MongoDB database as a data lake.
@@ -10,7 +10,7 @@ The problem statement is to create a Streamlit application that allows users to 
 4. Option to select a channel name and migrate its data from the data lake to a SQL database as tables.
 5. Ability to search and retrieve data from the SQL database using different search options, including joining tables to get channel details.
 
-Approach: 
+**Approach: **
 1. Set up a Streamlit app: Streamlit is a great choice for building data visualization and analysis tools quickly and easily. You can use Streamlit to create a simple UI where users can enter a YouTube channel ID, view the channel details, and select channels to migrate to the data warehouse.
 2. Connect to the YouTube API: You'll need to use the YouTube API to retrieve channel and video data. You can use the Google API client library for Python to make requests to the API.
 3. Store data in a MongoDB data lake: Once you retrieve the data from the YouTube API, you can store it in a MongoDB data lake. MongoDB is a great choice for a data lake because it can handle unstructured and semi-structured data easily.
@@ -19,7 +19,7 @@ Approach:
 6. Display data in the Streamlit app: Finally, you can display the retrieved data in the Streamlit app. You can use Streamlit's data visualization features to create charts and graphs to help users analyze the data.
 Overall, this approach involves building a simple UI with Streamlit, retrieving data from the YouTube API, storing it in a MongoDB data lake, migrating it to a SQL data warehouse, querying the data warehouse with SQL, and displaying the data in the Streamlit app.
 
-SQL Query Output need to displayed as table in Streamlit Application:
+**SQL Query Output need to displayed as table in Streamlit Application:**
 
 1.	What are the names of all the videos and their corresponding channels?
 2.	Which channels have the most number of videos, and how many videos do
@@ -40,19 +40,20 @@ corresponding channel names?
 10.	Which videos have the highest number of comments, and what are their 
 corresponding channel names?
 
-Results: 
+**Results: **
 This project aims to develop a user-friendly Streamlit application that utilizes the Google API to extract information on a YouTube channel, stores it in a MongoDB database, migrates it to a SQL data warehouse, and enables users to search for channel details and join tables to view data in the Streamlit app.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Technology Stack Used:**
-	1. Python
-  2. google.apiv3.python
-	2. MongodB(Atlas)
-  3. MySQL
-	3. Streamlit
-	4. Jupyter notebook
 
-** Security And Compliances.**
+1. Python
+2. google.apiv3.python
+3. MongodB(Atlas)
+4. MySQL
+5. Streamlit
+6. Jupyter notebook
+
+**Security And Compliances.**
 1. The youtoube API is restricted to access onyl public data in ready only mode.
 2. MongoDB is configured with X509 certificate.
 3. The API keys and other crendentials are imported via config.py.
@@ -64,13 +65,8 @@ This project aims to develop a user-friendly Streamlit application that utilizes
 4. import the dataframe ( structured data ) to SQL DB
 5. Analysis the data in sql and ans the list of 10 Question
 
-**   Steps to consume the code in Git Hub.**
+**Steps to consume the code in Git Hub.**
 1. Clone the code.
 2. update the API's/Mongodb/SqlDB urls respectively
 3. update the credentials
 4. excute frontend.py via streamlit.
-   
- 
- 
-Github Cloning![image](https://github.com/mrkmm2024/Project/assets/157888294/2ea306da-952d-426e-a96d-54668dd9c54a)
-
