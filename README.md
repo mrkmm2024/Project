@@ -74,37 +74,26 @@ This project aims to develop a user-friendly Streamlit application that utilizes
                                                                                            **Screen shots** 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Installing dependent Python Modules.
-
-
+--------------------------------------
 ![image](https://github.com/mrkmm2024/Project/assets/157888294/aef339e5-5a88-4fb8-9a55-85e05e364cd4)
-
 
 Testing Google youtube API Authentication:
 --------------------------------------------------
-
-
 ![image](https://github.com/mrkmm2024/Project/assets/157888294/aa236595-10de-4a92-b143-fab256397787)
 
 Mongodb
 -----------
-
 ![image](https://github.com/mrkmm2024/Project/assets/157888294/f2e404a7-39eb-460a-866a-cc5b59b08e8e)
 
 Data_load_MongoDB
+-----------------
 ![image](https://github.com/mrkmm2024/Project/assets/157888294/46d4abe9-b84c-4e1c-a543-f24af14eca01)
 
 Data Import to SQL DB
 --------------------------------
-
-
 ![image](https://github.com/mrkmm2024/Project/assets/157888294/a3166061-9a3b-4ef6-8395-bee171d90a51)
 
 Data Analysis:
 --------------------
 ![image](https://github.com/mrkmm2024/Project/assets/157888294/a3114565-9de3-4025-bd2d-7d6dd9d58541)
-
-
-
-
-
 
