@@ -92,7 +92,6 @@ Data_load_MongoDB
 Data Import to SQL DB
 --------------------------------
 ![image](https://github.com/mrkmm2024/Project/assets/157888294/a3166061-9a3b-4ef6-8395-bee171d90a51)
-
 Data Analysis:
 --------------------
 ![image](https://github.com/mrkmm2024/Project/assets/157888294/a3114565-9de3-4025-bd2d-7d6dd9d58541)
